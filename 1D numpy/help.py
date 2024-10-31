@@ -97,6 +97,6 @@ import numpy as np
 
 # necesito un array que esté entre [-2, 2] y de 5 elementos
 
-l = np.linspace(-2, 2, num = 5)
-print(l)
+line = np.linspace(-2, 2, num=5)
+print(line)
 
