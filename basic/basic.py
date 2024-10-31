@@ -48,7 +48,7 @@ length = len(g)
 print(length)
 
 
-
+# TUPLAS Y LISTAS
 
 tuple1 = ("disco", 10, 1.2)
 print(tuple1[2])
@@ -108,6 +108,8 @@ album_set3 = album_set1 | album_set2
 
 
 print(album_set1.issubset(album_set3))
+
+# CICLOS / BUCLES
 
 Bib = 7
 if (Bib > 8):

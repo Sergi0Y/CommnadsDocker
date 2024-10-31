@@ -9,6 +9,8 @@ print(a[1:4:2])
 
 print(a.shape)
 
+# ATRIBUTOS
+
 b = np.array([10, 20, 30, 40, 50, 60, 70])
 # TAMAÑO DEL ARRAY
 s = b.size
@@ -17,6 +19,9 @@ d = b.ndim
 # FORMA (DIMENSIONES)
 sh = b.shape
 print(f"The size is {s}.\nThe dimension is {d}.\nThe shape is {sh}.")
+# RECORRER EL ARRAY
+for x in b:
+    print(x)
 
 # __FUNCIONES__
 
@@ -97,6 +102,6 @@ import numpy as np
 
 # necesito un array que esté entre [-2, 2] y de 5 elementos
 
-line = np.linspace(-2, 2, num=5)
-print(line)
+lin = np.linspace(-2, 2, num=5)
+print(lin)
 
