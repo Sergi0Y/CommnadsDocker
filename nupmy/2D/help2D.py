@@ -31,6 +31,6 @@ print(A[0:2, 2])
 
 # OPERACIONES
 # SUMAS Y RESTAS
-import numpy as np
-x = np.array([1, 0], [0,1])
+
+x = np.array([1, 0], [0, 1])
 y = np.array([2, 1], [1, 2])

@@ -17,3 +17,4 @@ size = A.size  # 9
 print(f'dim es: {dim}\nshape es {shape}\nsize es {size}')
 
 print(A[0:2, 2])
+# selecciona la columna
