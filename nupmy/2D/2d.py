@@ -17,4 +17,8 @@ size = A.size  # 9
 print(f'dim es: {dim}\nshape es {shape}\nsize es {size}')
 
 print(A[0:2, 2])
-# selecciona la columna
+# [0:2] Selecciona las filas 0 y 1
+# [, 2] selecciona la columna
+# [13, 23]
+
+
